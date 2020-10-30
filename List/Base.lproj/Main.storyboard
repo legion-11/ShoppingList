@@ -147,6 +147,7 @@
                                         <connections>
                                             <outlet property="name" destination="eDh-tL-K89" id="H6W-EY-B0V"/>
                                             <outlet property="number" destination="Gus-Ac-Fm2" id="pqU-SW-73Q"/>
+                                            <outlet property="steper" destination="kBo-4w-ea9" id="ozr-3x-TVR"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

@@ -7,12 +7,14 @@
 //
 
 import UIKit
-
+//custome label for tableview
 class TableViewCell: UITableViewCell{
     
+    @IBOutlet weak var steper: UIStepper!
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var number: UILabel!
-
+    
+    //change number label
     @IBAction func SteperPressed(_ sender: UIStepper) {
         number.text = String(format:"x%02d",Int(sender.value))
     }

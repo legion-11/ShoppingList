@@ -110,6 +110,7 @@ class ViewController: UIViewController, UITableViewDelegate,  UITableViewDataSou
         listName.text = "New List"
         for cell in tableview.visibleCells as! Array<TableViewCell> {
             cell.number.text = "x01"
+            cell.steper.value = 1
         }
         tableview.reloadData()
     }
